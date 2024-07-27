@@ -1,10 +1,10 @@
-#include <smoke_api/config.hpp>
+#include <smoked_api/config.hpp>
 #include <core/paths.hpp>
 #include <koalabox/util.hpp>
 #include <koalabox/io.hpp>
 #include <koalabox/logger.hpp>
 
-namespace smoke_api::config {
+namespace smoked_api::config {
     Config instance; // NOLINT(cert-err58-cpp)
 
     // TODO: Refactor to Koalabox
